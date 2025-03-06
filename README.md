@@ -14,8 +14,8 @@ If using a conda environment, you can install the required tools with the follow
 ## Usage
 The script requires the following command line arguments:
 - `-i`: Path to the input SAM file
-- `-o`: Path to the output directory (this directory must exist)
-- `-@`: Number of threads to use (default is 1, Optional)
+- `-o`: [Optional] Path to the output directory (if not specified, the current working directory is used)
+- `-@`: [Optional] Number of threads to use (default is 1)
 For example, run the script as follows:
 ```
 $ python samtools_VSI.py -i /path/to/input.sam -o /path/to/output -@ 4
