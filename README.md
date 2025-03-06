@@ -8,7 +8,7 @@ This script automates the conversion of a SAM file to BAM format, sorting, and i
 - samtools
 If using a conda environment, you can install the required tools with the following command:
   ```
-  $ conda create -n asm_env -c bioconda minimap2 samtools
+  $ conda create -n samtools_vsi -c bioconda samtools
   ```
 
 ## Usage
